@@ -287,8 +287,8 @@
   .gate-inner a { color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--rule); padding-bottom: 1px; transition: border-color 0.2s; }
   .gate-inner a:hover { border-color: var(--accent); }
 
- transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
-  .reveal.visible { opacity: 1; transform: translateY(0); }
+ .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
 
   @media (max-width: 900px) {
     header { grid-template-columns: 1fr; }
@@ -491,7 +491,7 @@
   <div class="container">
     <div class="section-label">Калитка</div>
     <div class="gate-inner reveal">
-      <p>Если для вас важна не только работа с интонацией, но и письмо как самостоятельная текстовая практика, возможно, вас заинтересует проект <a href="https://intonation-bit.github.io/textura/" target="_blank" rel="noopener">«Текстура»</a>.</p>
+      <p>Если для вас важна не только работа с интонацией, но и письмо как самостоятельная текстовая практика, возможно, вас заинтересует проект <a href="https://textura-studio.org/" target="_blank" rel="noopener">«Текстура»</a>.</p>
     </div>
   </div>
 </section>
